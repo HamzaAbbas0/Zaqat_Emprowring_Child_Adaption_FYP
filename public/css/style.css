@@ -1,0 +1,1247 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.mainSignupScreen {
+    background-color: #ECECEC;
+}
+
+p.welcome-head {
+    font-size: 18px;
+}
+
+ul.welcomList {
+    margin-bottom: 0;
+    text-align: right;
+    list-style: none;
+}
+
+ul.welcomList li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.welcomList li {
+    display: inline-block;
+}
+
+.customHeading {
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.forget-password h3 {
+    font-weight: 700;
+    font-size: 38px
+}
+
+.forget-password .customCTA a {
+    width: 100%;
+}
+
+.customCTA {
+    text-align: center;
+    flex-direction: column;
+}
+
+.mainSignupScreen .customCTA {
+    flex-direction: inherit;
+}
+
+
+/* .customCTA a {
+    color: #fff !important;
+    background-color: #00529E;
+    transition: 400ms all;
+} */
+
+.customCTA a {
+    color: #fff !important;
+    background-color: #00529E;
+    transition: 400ms all;
+    width: 380px;
+    height: 60px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.customCTA a:hover {
+    background-color: #FCCE01;
+}
+
+.welcome-screen {
+    color: #fff;
+    position: relative;
+}
+
+.voklogik-main .card {
+    background-color: transparent;
+    border: 0;
+}
+
+.screen-logo.ms-5 {
+    position: absolute;
+}
+
+.register-left {
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+}
+
+.customCTARegister a {
+    border-bottom: 2px solid #eee;
+    border-radius: 0;
+    padding: 12px 40px;
+    font-weight: 700;
+    color: #b7b7b7 !important;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.customCTARegister a.active {
+    background-color: #313131;
+    color: #fff !important;
+}
+
+.customCTARegister a:hover {
+    background-color: #313131;
+    color: #fff !important;
+}
+
+.logForm label.form-label {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #8C98A9;
+    margin-bottom: 2px;
+}
+
+.logForm input {
+    /* background-color: #f1f2f7; */
+    /* border: 0; */
+    /* padding-top: 8px; */
+    /* padding-bottom: 8px; */
+    border-color: #E0E7FF;
+    border-width: 2px;
+}
+
+.googleCTA a {
+    position: relative;
+    box-shadow: 1px 1px 15px 6px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px 50px;
+    transition: 400ms all;
+}
+
+.googleCTA a:hover {
+    background-color: #313131;
+    color: #fff !important;
+}
+
+.googleCTA a img {
+    margin-right: 10px;
+}
+
+
+/* .googleCTA a:before {
+    content: "";
+    background-color: #313131;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: -100px;
+    top: 18px;
+    z-index: -19;
+}
+
+.googleCTA a:after {
+    content: "";
+    background-color: #313131;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    right: -100px;
+    top: 18px;
+    z-index: -8;
+} */
+
+.customHeading3 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.forget-password {
+    box-shadow: 1px 1px 15px 5px rgb(0 0 0 / 10%);
+}
+
+.forget-screen .logForm {
+    padding-bottom: 100px;
+}
+
+.sidebar-dark .sidebar-brand {
+    /* background-color: #fff; */
+    height: auto;
+}
+
+.mainDashboard .bg-gradient-primary {
+    background-color: #00529E;
+    background-image: none;
+}
+
+.dashboardSearch button {
+    background-color: #00529E;
+    border-color: #00529E;
+}
+
+.dashboardSearch button:hover {
+    background-color: #313131;
+    border-color: #313131;
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #313131;
+}
+
+.topbar .dropdown-list .dropdown-header {
+    background-color: #00ccff;
+    border: 1px solid #00ccff;
+}
+
+.dropdown .dropdown-menu .dropdown-header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link i {
+    font-size: 20px;
+}
+
+.dashboardTitle h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2E384D;
+}
+
+.dasboardCarousel .carousel-item {
+    background-size: cover;
+    background-position: center top;
+    padding: 35px 30px 72px 50px;
+}
+
+.dasboardCarousel .carousel-item h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 30px;
+}
+
+.dasboardCarousel .carousel-item a {
+    background-color: #FF9100;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 30px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 400ms all;
+    text-decoration: none;
+}
+
+.dasboardCarousel .carousel-item a:hover {
+    background-color: #313131;
+}
+
+.dasboardColumns h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313131;
+    margin-top: 20px;
+}
+
+.dasboardColumns i {
+    font-size: 100px;
+    color: #313131;
+}
+
+.dasboardColumns {
+    background-color: #EFEFEF;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card-paragraph {
+    margin: 50px 0;
+    font-size: 20px;
+    color: #707070;
+}
+
+.dashboardColumnCTA {
+    text-align: center;
+}
+
+.dashboardColumnCTA a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: 400ms all;
+    padding: 15px;
+    background-color: #00CCFF;
+}
+
+.dashboardColumnCTA a:hover {
+    background-color: #313131;
+}
+
+.bottomBar {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    border-top: 1px solid #edecec;
+}
+
+.topbar {
+    margin-bottom: 0 !important;
+}
+
+.breadcrumbs ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #707070;
+}
+
+.breadcrumbs ul li a {
+    color: #969BA5;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.copyright span {
+    font-size: 18px;
+}
+
+.dashboardSidebar li.nav-item a i {
+    font-size: 20px !important;
+}
+
+.cardListing ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0;
+}
+
+.cardListing ul li {
+    font-size: 20px;
+    border-top: 1px solid #cacaca;
+    padding: 15px 0;
+    line-height: 1;
+    color: #707070;
+}
+
+.cardListing ul li i {
+    font-size: 28px;
+    margin-right: 15px;
+    color: #50B748;
+    position: relative;
+    top: 3px;
+}
+
+.dashboardColumnCTA.subscribeYellow a {
+    background-color: #FFF1A1;
+    color: #313131;
+}
+
+.dashboardColumnCTA.subscribeGrey a {
+    background-color: #313131;
+}
+
+.dashboardColumnCTA.subscribeYellow a:hover {
+    background-color: #FF9100;
+    color: #fff;
+}
+
+.dashboardColumnCTA.subscribeBlue a:hover {
+    background-color: #FF9100;
+}
+
+.dashboardColumnCTA.subscribeGrey a:hover {
+    background-color: #FF9100;
+}
+
+.subscriptionPage {
+    background-color: #fff !important;
+}
+
+.dashboardContent h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 20px;
+}
+
+.dashboardContent p {
+    font-size: 20px;
+    color: #313131;
+}
+
+.contactPageBG {
+    background-color: #ECECEC !important;
+}
+
+.form-fields.shadow {
+    background-color: #fff;
+    padding: 50px 30px;
+    border-radius: 7px;
+}
+
+.form-field input {
+    background-color: #F1F2F7;
+    border: 0;
+    min-height: calc(1.5em + (.75rem + 10px));
+    border: 0;
+}
+
+.form-field textarea {
+    background-color: #F1F2F7;
+    height: 150px;
+    min-height: calc(1.5em + (.75rem + 10px));
+    border: 0;
+}
+
+.form-field label {
+    font-size: 19px;
+}
+
+.form-field.upload-field input {
+    min-height: auto;
+}
+
+.form-field button {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #FF9100;
+    border-color: #FF9100;
+    padding: 12px 100px;
+    transition: 400ms all;
+}
+
+.form-field button:hover {
+    background-color: #313131;
+}
+
+.paymentFormBG {
+    background-color: #E9F0F3;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.paymentFormBG form {
+    background-color: #fff;
+    padding: 30px 50px;
+}
+
+.payment-heading h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+.paymentBGWhite {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.paymentBGWhite h4 {
+    border-bottom: 1px solid;
+    padding-bottom: 7px;
+    margin-bottom: 30px;
+}
+
+.paymentBGWhite h2 {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.paymentBGWhite .cardListing ul li i {
+    font-size: 16px;
+    margin-right: 0;
+}
+
+.paymentBGWhite .cardListing ul li {
+    font-size: 15px;
+    padding: 12px 0;
+}
+
+.paymentBGWhite .cardListing ul {
+    margin: 20px 0;
+}
+
+.paymentBGWhite form {
+    padding: 0px 10px;
+}
+
+label.form-label.labelHidden {
+    color: transparent;
+}
+
+.payment-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.paymentCards {
+    margin-top: 20px;
+}
+
+.paymentBGWhite .dashboardColumnCTA.subscribeYellow a {
+    font-size: 16px;
+}
+
+.canditate-des {
+    background-color: #fff;
+    z-index: 99;
+}
+
+.canditate-des {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #2E55FA;
+    outline-offset: 3px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.candidate-info img {}
+
+.canditate-des img {
+    border-radius: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    height: 100%;
+}
+
+.canditate-des::before {
+    content: "";
+    position: absolute;
+    background-color: #2e55fa;
+    height: 115%;
+    width: 2px;
+    left: 50%;
+    top: -10px;
+    z-index: -1;
+}
+
+.canditate-des::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    width: 120%;
+    background-color: #2e55fa;
+    height: 2px;
+    z-index: -1;
+}
+
+.canditate-des .upload-link {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #fff;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 10px 0 rgb(0 24 128 / 10%);
+    border-radius: 100%;
+    color: #2E55FA;
+    overflow: hidden;
+}
+
+.update-flie {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    width: 100px;
+    cursor: pointer;
+    left: 0;
+}
+
+.candidate-title {
+    margin-top: 25px;
+}
+
+.candidate-title h4 {
+    font-weight: 700;
+}
+
+.candidate-title h4 a {
+    color: #313131;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.editDP {
+    text-align: center;
+    padding: 50px;
+}
+
+.candidate-title p a {
+    color: #8C98A9;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 400ms all;
+    font-size: 18px;
+}
+
+form.shadow.profile-form {
+    padding: 50px;
+}
+
+.form-field.changePassword {
+    margin-top: 35px;
+}
+
+.form-field.changePassword button {
+    background-color: #707070;
+    border-color: #707070;
+    width: 100%;
+    padding: 12px 0;
+}
+
+#restPaasswrodModal h5#exampleModalLabel {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+}
+
+.form-field.modalBTN {
+    text-align: center;
+}
+
+#restPaasswrodModal .modal-body {
+    padding: 50px;
+}
+
+.job-bx-title.clearfix {
+    margin-bottom: 30px;
+}
+
+.helpContentTitle a {
+    color: #FF9100;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.helpContentTitle a:hover {
+    color: #313131;
+}
+
+.dropBusinessType .dropdown a#dropdownMenuLink {
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dropBusinessType .dropdown a#dropdownMenuLink:after {
+    display: none;
+}
+
+.dropBusinessType .dropdown a#dropdownMenuLink i {
+    float: right;
+}
+
+.addNameBox h4 a {
+    color: #707070;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.addNameBox h4 a i {
+    margin-left: 10px;
+}
+
+.addNameBox h4 a:hover {
+    color: #FF9100;
+}
+
+.dropBusinessType {
+    margin-top: 50px;
+}
+
+.dropBusinessType .dropdown ul.dropdown-menu.show {
+    width: 100%;
+}
+
+.dropBusinessType .dropdown ul.dropdown-menu.show li {
+    margin-bottom: 10px;
+}
+
+.signinScreen h3 {
+    font-weight: 700;
+    font-size: 46px;
+}
+
+form.loginFields label.form-label {
+    font-size: 18px;
+    color: #8C98A9;
+}
+
+form.loginFields input {
+    border-color: #E0E7FF;
+    border-width: 2px;
+}
+
+
+/* .loginFields button.customCTA {
+    width: 100%;
+    background-color: #00529E;
+    color: #fff;
+    font-size: 18px;
+    transition: 400ms all;
+}
+
+.loginFields button.customCTA:hover {
+    background-color: #FCCE01;
+} */
+
+.loginFields a.customCTA {
+    width: 100%;
+    background-color: #00529E;
+    color: #fff;
+    font-size: 18px;
+    transition: 400ms all;
+}
+
+.loginFields a.customCTA:hover {
+    background-color: #FCCE01;
+}
+
+.loginFields p.text-center,
+.loginFields p a {
+    color: #8C98A9;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.loginFields p.text-center a:hover {
+    color: #FCCE01;
+}
+
+.loginFields p.text-center a {
+    color: #2E384D;
+    font-weight: 600;
+}
+
+.loginFields p a:hover {
+    color: #000;
+}
+
+.customCard {
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.globalScreen {
+    background-color: #ECECEC;
+}
+
+.forget-screen .card {
+    background-color: transparent;
+    border: 0;
+}
+
+.customChartHeader .card-title {
+    font-size: 20px;
+    color: #2E384D !important;
+    font-weight: 500;
+}
+
+.exportBTN button {
+    background-color: #ECECEC;
+    font-size: 12px;
+    color: #2E384D;
+}
+
+.customChartHeader {
+    background-color: #fff;
+}
+
+.applicantList h2 {
+    font-size: 20px;
+    color: #2E384D;
+    font-weight: 500;
+}
+
+.applicantList h5 {
+    font-size: 16px;
+    font-weight: 500 !important;
+    color: #2E384D;
+}
+
+.applicantList span {
+    font-size: 14px !important;
+    color: #2E384D !important;
+}
+
+.appBorder {
+    border-top: 1px solid #707070;
+}
+
+a.btn.viewReport {
+    background-color: #E0E7FF;
+    color: #00529E;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+a.btn.viewReport:hover {
+    background-color: #00529E;
+    color: #fff;
+}
+
+.appBorder img {
+    width: 50px;
+}
+
+.customTableUI thead tr th,
+.customTableUI tfoot tr th {
+    background-color: #FCCE01;
+    color: #000;
+    border: 0;
+}
+
+.customTableUI {
+    /* text-align: center; */
+}
+
+div#dataTable_paginate .page-item.active .page-link {
+    background-color: #00529E;
+    border-color: #00529E;
+}
+
+.formLabel {
+    font-size: 18px;
+    color: #8C98A9;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.labelMessage {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.donationRequestForm {
+    padding: 20px;
+}
+
+.formField {
+    margin-bottom: 30px;
+}
+
+.formField input {
+    width: 100%;
+    background-color: #F9F9F9;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formField textarea {
+    width: 100%;
+    height: 150px;
+    background-color: #F9F9F9;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formFieldBTN {
+    text-align: center;
+}
+
+.formFieldBTN a {
+    background-color: #00529E;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 100px;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 400ms all;
+    text-decoration: none;
+}
+
+.formFieldBTN a:hover {
+    background-color: #FCCE01;
+    color: #000;
+}
+
+.customModal .modal-header {
+    border-bottom: 0 !important;
+}
+
+.donationRequestFormModal h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    color: #2E384D;
+    margin-bottom: 30px;
+}
+
+.donationRequestFormModal .formField input {
+    background-color: transparent;
+    border: 1px solid #E0E7FF;
+}
+
+.donationRequestFormModal .formField textarea {
+    background-color: transparent;
+    border: 1px solid #E0E7FF;
+}
+
+.donationRequestFormModal {
+    padding: 0 20px 20px 20px;
+}
+
+.customTableUI tr.even {
+    background-color: #ECECEC;
+}
+
+td a.statusGreen {
+    color: #159E00;
+}
+
+.customTableUI tbody td {
+    /* font-size: 20px; */
+    vertical-align: middle;
+}
+
+.customTableUI tbody td a {
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+.customTableUI tbody td a:hover {
+    font-weight: 700;
+}
+
+a.statusLightBlue {
+    color: #3BA1FF;
+}
+
+a.statusRed {
+    color: #FF0000;
+}
+
+a.statusDarkBlue {
+    color: #00529E;
+}
+
+span.statusDarkBlue {
+    font-weight: 500;
+    color: #00529E;
+    font-size: 18px;
+}
+
+.completedStatus .formField input {
+    background-color: #D8EBFD;
+    border: 1px solid #00529E;
+}
+
+.completedStatus .formField textarea {
+    background-color: #D8EBFD;
+    border: 1px solid #00529E;
+}
+
+.completedStatus .formField select {
+    background-color: #D8EBFD;
+    border-color: #00529E;
+    padding: 10px;
+}
+
+.approvedStatus .formField input {
+    background-color: #DCFFE1;
+    border: 1px solid #159E00;
+}
+
+.approvedStatus .formField textarea {
+    background-color: #DCFFE1;
+    border: 1px solid #159E00;
+}
+
+span.statusGreen {
+    font-weight: 500;
+    color: #159E00;
+    font-size: 18px;
+}
+
+span.statusRed {
+    font-weight: 500;
+    color: #FF0000;
+    font-size: 18px;
+}
+
+.rejectedStatus .formField input {
+    border: 1px solid #FF0000;
+    background-color: #FFE4E1;
+}
+
+.rejectedStatus .formField textarea {
+    border: 1px solid #FF0000;
+    background-color: #FFE4E1;
+}
+
+span.statusReview {
+    color: #3BA1FF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.reviewStatus .formField input {
+    background-color: #E9F4FF;
+    border: 1px solid #3BA1FF;
+}
+
+.reviewStatus .formField textarea {
+    background-color: #E9F4FF;
+    border: 1px solid #3BA1FF;
+}
+
+.profilePic {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+ul.notificationLists {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.notificationLists li {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+
+span.notifyGreen {
+    color: #159E00;
+    font-weight: 700;
+}
+
+ul.notificationLists li a {
+    display: block;
+    color: #00529E;
+}
+
+span.notifyDateTime span {
+    display: block;
+    font-weight: 600;
+}
+
+span.notifyMessage {
+    color: #2E384D;
+}
+
+span.notifyDateTime {
+    color: #616161;
+}
+
+span.notifyRed {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+span.notifyLightBlue {
+    color: #3BA1FF;
+    font-weight: 700;
+}
+
+span.notifyDarkBlue {
+    color: #00529E;
+    font-weight: 700;
+}
+
+.newRequestForm .formField select {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #00529E;
+}
+
+.newRequestForm .formField input {
+    border: 1px solid #00529E;
+    background-color: transparent;
+}
+
+.newRequestForm .formField textarea {
+    border: 1px solid #00529E;
+    background-color: transparent;
+}
+
+.givingTreePage .card-header {
+    padding: 30px 40px 20px 40px;
+    background-color: #fff;
+}
+
+.givingTreePage .card-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2E384D;
+}
+
+.givingTreePage .card-header p {
+    color: #2E384D;
+    font-size: 20px;
+}
+
+.givingTreePage .formFieldBTN {
+    text-align: right;
+    margin-top: 100px;
+}
+
+a#addChildBTN {
+    background-color: #FDCE00;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 400ms all;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+a#removeChildBTN {
+    background-color: #E00000;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 400ms all;
+    text-decoration: none;
+}
+
+a#addChildBTN:hover {
+    background-color: #000;
+}
+
+a#removeChildBTN:hover {
+    background-color: #000;
+}
+
+#givingTreeFormPartTwo {
+    display: none;
+}
+
+a#previous {
+    display: none;
+}
+
+#givingTreeSubmitBTN {
+    width: 100%;
+    text-align: center;
+}
+
+.animateBox img {
+    width: 30%;
+    height: auto;
+}
+
+.animateBox {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-dark .nav-item .nav-link:active,
+.sidebar-dark .nav-item .nav-link:focus,
+.sidebar-dark .nav-item .nav-link:hover {
+    color: #FCCE01;
+}
+
+.sidebar-dark .nav-item .nav-link:active i,
+.sidebar-dark .nav-item .nav-link:focus i,
+.sidebar-dark .nav-item .nav-link:hover i {
+    color: #FCCE01;
+}
+
+.formField.customSelectBox {
+    position: relative;
+    overflow: hidden;
+}
+
+/* .formField.customSelectBox:before {
+    content: '\f107';
+    background-color: #00529E;
+    width: 50px;
+    height: 46px;
+    position: absolute;
+    line-height: 45px;
+    right: 0px;
+    top: 0;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Font Awesome 5 Free';
+    text-align: center;
+    font-weight: 700;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+} */
+
+@media only screen and (min-width: 992px) and (max-width: 1499px) {
+    .signinScreen .col-lg-3 {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .signinScreen form.loginFields {
+        width: 30rem !important;
+    }
+    .signinScreen .col-lg-2 {
+        display: none;
+    }
+    .customCard {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+    .customCenter {
+        text-align: center;
+    }
+    .breadcrumbs ul {
+        text-align: center;
+    }
+    .customTableUI tbody td {
+        font-size: 16px;
+    }
+    div#givingTreeFormPartTwo .card-header {
+        padding: 0px 40px 20px 20px;
+    }
+    .givingTreePage .card-header h2 {
+        font-size: 21px;
+    }
+    .customCard {
+        justify-content: center;
+    }
+}
